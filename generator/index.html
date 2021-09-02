@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="index.js" defer>
+
+    </script>
+</head>
+<body>
+   <div class="container">
+      
+       <div class="pw-body">
+        <div class="pw-header">
+            <div class="haslo">
+                <span id="haslo"></span>
+                <button id='kopiuj' class='kopiuj'>Skopiuj</button>
+            </div>
+        </div>
+        <div class="form-control">
+            <label for="dl">Podaj długość</label>
+            <input id='dl' type="number" min="4" max="50">
+         </div>
+            <div class="form-control">
+               <label for="upper">Czy duże?</label>
+               <input id='upper' type="checkbox">
+            </div>
+            <div class="form-control">
+                <label for="lower">Czy małe?</label>
+                <input id='lower' type="checkbox">
+            </div>
+            <div class="form-control">
+                <label for="number">Czy liczby?</label>
+                <input id='number' type="checkbox">
+            </div>
+            <div class="form-control">
+               <label for="symbol">Czy symbole?</label>
+               <input id='symbol' type="checkbox">
+            </div>
+            <button id="generuj" class="generuj">Generuj</button>
+       </div>
+   </div>
+</body>
+</html>
